@@ -1,0 +1,1679 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0x582f57 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 1: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.189479500    ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 2: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.349357800    ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.99? (ARP Probe)
+
+Frame 3: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.349855500    ::                    ff02::1:ff06:e8c      ICMPv6   78     Neighbor Solicitation for fe80::b435:c72b:4f06:e8c
+
+Frame 4: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_ff:06:0e:8c (33:33:ff:06:0e:8c)
+Internet Protocol Version 6, Src: ::, Dst: ff02::1:ff06:e8c
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.349949800    fe80::b435:c72b:4f06:e8c ff02::2               ICMPv6   62     Router Solicitation
+
+Frame 5: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.349994400    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 6: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.458218700    HMSIndustria_7b:54:0a Broadcast             ARP      60     Who has 192.168.1.4? (ARP Probe)
+
+Frame 7: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.458218700    HMSIndustria_7b:53:b6 Broadcast             ARP      60     Who has 192.168.1.5? (ARP Probe)
+
+Frame 8: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.657911400    HMSIndustria_7b:54:0a Broadcast             ARP      60     Who has 192.168.1.4? (ARP Probe)
+
+Frame 9: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.657911400    HMSIndustria_7b:53:b6 Broadcast             ARP      60     Who has 192.168.1.5? (ARP Probe)
+
+Frame 10: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.853708300    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 11: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.857841700    HMSIndustria_7b:54:0a Broadcast             ARP      60     Who has 192.168.1.4? (ARP Probe)
+
+Frame 12: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.857841700    HMSIndustria_7b:53:b6 Broadcast             ARP      60     Who has 192.168.1.5? (ARP Probe)
+
+Frame 13: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.947031500    WeintekLabs_67:ad:83  Broadcast             ARP      60     Who has 192.168.1.5? Tell 192.168.1.90
+
+Frame 14: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 1.010934100    fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0x582f57 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 15: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 1.057844600    HMSIndustria_7b:54:0a Broadcast             ARP      60     Who has 192.168.1.4? (ARP Probe)
+
+Frame 16: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 1.057844600    HMSIndustria_7b:53:b6 Broadcast             ARP      60     Who has 192.168.1.5? (ARP Probe)
+
+Frame 17: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 1.257880100    HMSIndustria_7b:54:0a Broadcast             ARP      60     ARP Announcement for 192.168.1.4
+
+Frame 18: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 1.257880100    HMSIndustria_7b:53:b6 Broadcast             ARP      60     ARP Announcement for 192.168.1.5
+
+Frame 19: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 1.259145100    HMSIndustria_7b:53:b6 Broadcast             ARP      60     Who has 192.168.1.90? Tell 192.168.1.5
+
+Frame 20: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 1.343896900    ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.99? (ARP Probe)
+
+Frame 21: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 1.343999900    fe80::b435:c72b:4f06:e8c ff02::1               ICMPv6   86     Neighbor Advertisement fe80::b435:c72b:4f06:e8c (ovr) is at 08:bf:b8:c7:20:90
+
+Frame 22: Packet, 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01 (33:33:00:00:00:01)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 1.344022600    fe80::b435:c72b:4f06:e8c ff02::2               ICMPv6   70     Router Solicitation from 08:bf:b8:c7:20:90
+
+Frame 23: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 1.347643100    WeintekLabs_67:ad:83  Broadcast             ARP      60     Who has 192.168.1.4? Tell 192.168.1.90
+
+Frame 24: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 1.351941300    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 25: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 1.351944900    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 26: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 1.352032000    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 27: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 1.352043800    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.251 for any sources
+
+Frame 28: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 1.352729200    fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0x54af ANY TUF-TERMINAL
+
+Frame 29: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 65528, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 1.352801900    192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0x54af ANY TUF-TERMINAL
+
+Frame 30: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 65528, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 1.357384500    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 31: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 1.357718200    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 239.255.255.250 for any sources
+
+Frame 32: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 1.391150300    ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 33: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 1.581556900    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 34: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 1.613721900    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 35: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 1.772422800    fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0x54af ANY TUF-TERMINAL
+
+Frame 36: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 65528, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 1.772464900    192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0x54af ANY TUF-TERMINAL
+
+Frame 37: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 65528, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 1.851185800    192.168.1.99          224.0.0.22            IGMPv3   70     Membership Report / Join group 224.0.0.252 for any sources / Join group 224.0.0.251 for any sources / Join group 239.255.255.250 for any sources
+
+Frame 38: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 1.851529400    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   130    Multicast Listener Report Message v2
+
+Frame 39: Packet, 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 2.341741700    ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.99? (ARP Probe)
+
+Frame 40: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 2.341799300    fe80::b435:c72b:4f06:e8c ff02::2               ICMPv6   70     Router Solicitation from 08:bf:b8:c7:20:90
+
+Frame 41: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 2.594003200    ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 42: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 3.010059900    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 43: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 3.026063700    fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0x582f57 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 44: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 3.259188600    HMSIndustria_7b:54:0a Broadcast             ARP      60     ARP Announcement for 192.168.1.4
+
+Frame 45: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 3.260307100    HMSIndustria_7b:53:b6 Broadcast             ARP      60     ARP Announcement for 192.168.1.5
+
+Frame 46: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 3.341126400    ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     ARP Announcement for 192.168.1.99
+
+Frame 47: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 3.344701500    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 48: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 3.344725000    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.251
+
+Frame 49: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 3.344749400    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 50: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 3.344860200    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.252
+
+Frame 51: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 3.353578200    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 52: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 3.353927100    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   110    Multicast Listener Report Message v2
+
+Frame 53: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 3.353992800    192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.251 for any sources
+
+Frame 54: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 3.354378400    fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0x7928 ANY TUF-TERMINAL
+
+Frame 55: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 49261, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 3.354439500    192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0x7928 ANY TUF-TERMINAL
+
+Frame 56: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 49261, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 3.443100600    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 57: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 3.443227000    192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 58: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 3.443342500    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 59: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 3.770368500    fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0x7928 ANY TUF-TERMINAL
+
+Frame 60: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 49261, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 3.770416300    192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0x7928 ANY TUF-TERMINAL
+
+Frame 61: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 49261, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 3.785462400    ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 62: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 3.847768000    192.168.1.99          224.0.0.22            IGMPv3   62     Membership Report / Join group 224.0.0.252 for any sources / Join group 224.0.0.251 for any sources
+
+Frame 63: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 3.847996300    fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   110    Multicast Listener Report Message v2
+
+Frame 64: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 4.274008800    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 65: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 4.274063700    192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 66: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 4.274098100    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 67: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 4.622351100    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 68: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 4.654270900    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 69: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 5.111024600    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 70: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 5.111083800    192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 71: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 5.111119600    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 72: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 5.347793900    ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     ARP Announcement for 192.168.1.99
+
+Frame 73: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 5.617398800    192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 74: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 5.930118800    192.168.1.99          224.0.0.251           MDNS     157    Standard query 0x0000 ANY TUF-TERMINAL.local, "QM" question ANY TUF-TERMINAL.local, "QM" question A 192.168.1.99 AAAA fe80::b435:c72b:4f06:e8c OPT
+
+Frame 75: Packet, 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 5.944942000    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 76: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 5.944998100    192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 77: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 5.945035100    192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 78: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 6.026264500    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 79: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 6.196170600    192.168.1.99          224.0.0.251           MDNS     157    Standard query 0x0000 ANY TUF-TERMINAL.local, "QM" question ANY TUF-TERMINAL.local, "QM" question A 192.168.1.99 AAAA fe80::b435:c72b:4f06:e8c OPT
+
+Frame 80: Packet, 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 6.449436900    192.168.1.99          224.0.0.251           MDNS     157    Standard query 0x0000 ANY TUF-TERMINAL.local, "QM" question ANY TUF-TERMINAL.local, "QM" question A 192.168.1.99 AAAA fe80::b435:c72b:4f06:e8c OPT
+
+Frame 81: Packet, 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 6.623356200    192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 82: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 6.734488000    192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 83: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 7.033762700    fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0x582f57 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 84: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 7.745595100    192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 85: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 9.046877000    192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 86: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 9.655294000    192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 87: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 9.766317200    192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 88: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 12.048668700   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 89: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 13.771877300   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 90: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 15.035404300   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0x582f57 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 91: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 15.051915900   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 92: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 49153, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 18.685613000   192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 93: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 21.780658200   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 94: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 31.044032900   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0x582f57 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 95: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 37.791128300   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 96: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 45.762127200   192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 97: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 56.330154300   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0xf61af1 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 98: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 56.344113400   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.99? (ARP Probe)
+
+Frame 99: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 56.344215700   ::                    ff02::1:ff06:e8c      ICMPv6   78     Neighbor Solicitation for fe80::b435:c72b:4f06:e8c
+
+Frame 100: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_ff:06:0e:8c (33:33:ff:06:0e:8c)
+Internet Protocol Version 6, Src: ::, Dst: ff02::1:ff06:e8c
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 56.344244700   fe80::b435:c72b:4f06:e8c ff02::2               ICMPv6   62     Router Solicitation
+
+Frame 101: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 56.344289700   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 102: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 56.518830900   ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 103: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 56.544778100   HMSIndustria_7b:54:0a Broadcast             ARP      60     Who has 192.168.1.4? (ARP Probe)
+
+Frame 104: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 56.745886800   HMSIndustria_7b:54:0a Broadcast             ARP      60     Who has 192.168.1.4? (ARP Probe)
+
+Frame 105: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 56.848664000   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 106: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 57.338935100   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0xf61af1 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 107: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 57.354879900   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.99? (ARP Probe)
+
+Frame 108: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 57.355083300   fe80::b435:c72b:4f06:e8c ff02::1               ICMPv6   86     Neighbor Advertisement fe80::b435:c72b:4f06:e8c (ovr) is at 08:bf:b8:c7:20:90
+
+Frame 109: Packet, 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01 (33:33:00:00:00:01)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 57.355108200   fe80::b435:c72b:4f06:e8c ff02::2               ICMPv6   70     Router Solicitation from 08:bf:b8:c7:20:90
+
+Frame 110: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 57.362688800   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   110    Multicast Listener Report Message v2
+
+Frame 111: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 57.362767700   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.251 for any sources
+
+Frame 112: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 57.362772200   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 113: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 57.363617900   fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0x8444 ANY TUF-TERMINAL
+
+Frame 114: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 59856, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 57.363676000   192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0x8444 ANY TUF-TERMINAL
+
+Frame 115: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 59856, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 57.366925100   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 116: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 57.367237500   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 239.255.255.250 for any sources
+
+Frame 117: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 57.591668100   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 118: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 59864, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 57.622549200   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 119: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 59864, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 57.718001000   ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 120: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 57.781605400   fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0x8444 ANY TUF-TERMINAL
+
+Frame 121: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 59856, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 57.781664000   192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0x8444 ANY TUF-TERMINAL
+
+Frame 122: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 59856, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 57.843681600   192.168.1.99          224.0.0.22            IGMPv3   70     Membership Report / Join group 224.0.0.251 for any sources / Join group 224.0.0.252 for any sources / Join group 239.255.255.250 for any sources
+
+Frame 123: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 57.843988100   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   130    Multicast Listener Report Message v2
+
+Frame 124: Packet, 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 58.346458200   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.99? (ARP Probe)
+
+Frame 125: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Probe)
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 58.346682300   fe80::b435:c72b:4f06:e8c ff02::2               ICMPv6   70     Router Solicitation from 08:bf:b8:c7:20:90
+
+Frame 126: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 58.915886000   ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 127: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 59.341507200   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     ARP Announcement for 192.168.1.99
+
+Frame 128: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 59.341554300   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0xf61af1 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 129: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 59.345227600   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 130: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 59.345304100   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.251
+
+Frame 131: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 59.345687200   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Leave group 224.0.0.252
+
+Frame 132: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 59.345897800   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 133: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 59.353491900   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 134: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 59.353561400   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.252 for any sources
+
+Frame 135: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 59.353575300   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   90     Multicast Listener Report Message v2
+
+Frame 136: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 59.353703000   192.168.1.99          224.0.0.22            IGMPv3   54     Membership Report / Join group 224.0.0.251 for any sources
+
+Frame 137: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 59.354327600   fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0xed13 ANY TUF-TERMINAL
+
+Frame 138: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 57679, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 59.354376500   192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0xed13 ANY TUF-TERMINAL
+
+Frame 139: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 57679, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 59.441345400   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 140: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 59.441478900   192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 141: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 59.441554600   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 142: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 59.769885400   fe80::b435:c72b:4f06:e8c ff02::1:3             LLMNR    92     Standard query 0xed13 ANY TUF-TERMINAL
+
+Frame 143: Packet, 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 57679, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 59.769945400   192.168.1.99          224.0.0.252           LLMNR    72     Standard query 0xed13 ANY TUF-TERMINAL
+
+Frame 144: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 57679, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 59.847463300   192.168.1.99          224.0.0.22            IGMPv3   62     Membership Report / Join group 224.0.0.252 for any sources / Join group 224.0.0.251 for any sources
+
+Frame 145: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_16 (01:00:5e:00:00:16)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.22
+Internet Group Management Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 59.847757700   fe80::b435:c72b:4f06:e8c ff02::16              ICMPv6   110    Multicast Listener Report Message v2
+
+Frame 146: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_16 (33:33:00:00:00:16)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::16
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 60.118289400   ASUSTekCOMPU_c7:20:90 Nearest-Bridge        LLDP     64     LA/TUF-TERMINAL MA/08:bf:b8:c7:20:90 3601 
+
+Frame 147: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Nearest-Bridge (01:80:c2:00:00:0e)
+Link Layer Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 60.198351700   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 148: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 59864, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 60.275747800   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 149: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 60.275798900   192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 150: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 60.275834200   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 151: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 60.623394100   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 152: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 59864, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 60.654877800   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 153: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 59864, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 61.116324300   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 154: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 61.116378300   192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 155: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 61.116411400   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 156: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 61.354486100   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     ARP Announcement for 192.168.1.99
+
+Frame 157: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (ARP Announcement)
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 61.636367200   192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 158: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 61.937806000   192.168.1.99          224.0.0.251           MDNS     157    Standard query 0x0000 ANY TUF-TERMINAL.local, "QM" question ANY TUF-TERMINAL.local, "QM" question A 192.168.1.99 AAAA fe80::b435:c72b:4f06:e8c OPT
+
+Frame 159: Packet, 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 61.953484400   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<20>
+
+Frame 160: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 61.953526300   192.168.1.99          192.168.1.255         NBNS     110    Registration NB WORKGROUP<00>
+
+Frame 161: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 61.953559500   192.168.1.99          192.168.1.255         NBNS     110    Registration NB TUF-TERMINAL<00>
+
+Frame 162: Packet, 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 62.194383800   192.168.1.99          224.0.0.251           MDNS     157    Standard query 0x0000 ANY TUF-TERMINAL.local, "QM" question ANY TUF-TERMINAL.local, "QM" question A 192.168.1.99 AAAA fe80::b435:c72b:4f06:e8c OPT
+
+Frame 163: Packet, 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 62.447696000   192.168.1.99          224.0.0.251           MDNS     157    Standard query 0x0000 ANY TUF-TERMINAL.local, "QM" question ANY TUF-TERMINAL.local, "QM" question A 192.168.1.99 AAAA fe80::b435:c72b:4f06:e8c OPT
+
+Frame 164: Packet, 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 62.653962000   192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 165: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    166 62.764055800   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 166: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 63.206434100   192.168.1.99          239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 167: Packet, 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 59864, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 63.348720200   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0xf61af1 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 168: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 63.764922100   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 169: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    170 65.683485400   192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 170: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    171 65.793384300   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 171: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    172 69.799089200   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 172: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    173 70.266502400   192.168.1.99          192.168.1.255         UDP      90     10720 → 10275 Len=48
+
+Frame 173: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 10720, Dst Port: 10275
+Data (48 bytes)
+
+0000  57 45 49 4e 00 00 00 01 7c aa 13 1a 00 00 23 28   WEIN....|.....#(
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 70.268557700   WeintekLabs_67:ad:83  Broadcast             ARP      60     Who has 192.168.1.99? Tell 192.168.1.90
+
+Frame 174: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 70.268577600   ASUSTekCOMPU_c7:20:90 WeintekLabs_67:ad:83  ARP      42     192.168.1.99 is at 08:bf:b8:c7:20:90
+
+Frame 175: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 70.269283200   192.168.1.90          192.168.1.99          UDP      96     10275 → 10720 Len=54
+
+Frame 176: Packet, 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Internet Protocol Version 4, Src: 192.168.1.90, Dst: 192.168.1.99
+User Datagram Protocol, Src Port: 10275, Dst Port: 10720
+Data (54 bytes)
+
+0000  57 45 49 4e 00 00 00 12 04 00 08 00 63 4d 54 2d   WEIN........cMT-
+0010  41 44 38 33 02 b0 30 00 9d f0 7b 1a c2 b6 4f c5   AD83..0...{...O.
+0020  b0 45 6a 9f d5 a1 a7 46 00 00 00 01 00 00 32 30   .Ej....F......20
+0030  32 34 30 35 30 36                                 240506
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 71.269666300   192.168.1.90          192.168.1.99          UDP      96     10275 → 10720 Len=54
+
+Frame 177: Packet, 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Internet Protocol Version 4, Src: 192.168.1.90, Dst: 192.168.1.99
+User Datagram Protocol, Src Port: 10275, Dst Port: 10720
+Data (54 bytes)
+
+0000  57 45 49 4e 00 00 00 12 04 00 08 00 63 4d 54 2d   WEIN........cMT-
+0010  41 44 38 33 02 b0 30 00 9d f0 7b 1a c2 b6 4f c5   AD83..0...{...O.
+0020  b0 45 6a 9f d5 a1 a7 46 00 00 00 01 00 00 32 30   .Ej....F......20
+0030  32 34 30 35 30 36                                 240506
+
+No.     Time           Source                Destination           Protocol Length Info
+    178 71.363953000   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0xf61af1 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 178: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 71.377106000   192.168.1.99          192.168.1.255         UDP      90     10720 → 10275 Len=48
+
+Frame 179: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.255
+User Datagram Protocol, Src Port: 10720, Dst Port: 10275
+Data (48 bytes)
+
+0000  57 45 49 4e 00 00 00 01 7c aa 13 1a 00 00 23 28   WEIN....|.....#(
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+No.     Time           Source                Destination           Protocol Length Info
+    180 71.377877800   192.168.1.90          192.168.1.99          UDP      96     10275 → 10720 Len=54
+
+Frame 180: Packet, 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Internet Protocol Version 4, Src: 192.168.1.90, Dst: 192.168.1.99
+User Datagram Protocol, Src Port: 10275, Dst Port: 10720
+Data (54 bytes)
+
+0000  57 45 49 4e 00 00 00 12 04 00 08 00 63 4d 54 2d   WEIN........cMT-
+0010  41 44 38 33 02 b0 30 00 9d f0 7b 1a c2 b6 4f c5   AD83..0...{...O.
+0020  b0 45 6a 9f d5 a1 a7 46 00 00 00 01 00 00 32 30   .Ej....F......20
+0030  32 34 30 35 30 36                                 240506
+
+No.     Time           Source                Destination           Protocol Length Info
+    181 71.584236500   192.168.1.99          192.168.1.90          UDP      58     10720 → 10275 Len=16
+
+Frame 181: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.90
+User Datagram Protocol, Src Port: 10720, Dst Port: 10275
+Data (16 bytes)
+
+0000  57 45 49 4e 00 00 00 03 7c aa 13 1a 00 00 e0 29   WEIN....|......)
+
+No.     Time           Source                Destination           Protocol Length Info
+    182 71.617478400   192.168.1.99          192.168.1.90          UDP      58     10720 → 10275 Len=16
+
+Frame 182: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.90
+User Datagram Protocol, Src Port: 10720, Dst Port: 10275
+Data (16 bytes)
+
+0000  57 45 49 4e 00 00 00 03 7c aa 13 1a 00 00 e0 29   WEIN....|......)
+
+No.     Time           Source                Destination           Protocol Length Info
+    183 71.617713600   192.168.1.99          192.168.1.90          UDP      58     10720 → 10275 Len=16
+
+Frame 183: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.90
+User Datagram Protocol, Src Port: 10720, Dst Port: 10275
+Data (16 bytes)
+
+0000  57 45 49 4e 00 00 00 03 7c aa 13 1a 00 00 e0 29   WEIN....|......)
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 71.828715400   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.4? Tell 192.168.1.99
+
+Frame 184: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 71.829125300   HMSIndustria_7b:54:0a ASUSTekCOMPU_c7:20:90 ARP      60     192.168.1.4 is at 00:30:11:7b:54:0a
+
+Frame 185: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 71.829146300   192.168.1.99          192.168.1.4           TCP      66     25385 → 44818 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 186: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 25385, Dst Port: 44818, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    187 71.830144100   192.168.1.4           192.168.1.99          TCP      62     44818 → 25385 [SYN, ACK] Seq=0 Ack=1 Win=4096 Len=0 MSS=1460 SACK_PERM
+
+Frame 187: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Internet Protocol Version 4, Src: 192.168.1.4, Dst: 192.168.1.99
+Transmission Control Protocol, Src Port: 44818, Dst Port: 25385, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 71.830209600   192.168.1.99          192.168.1.4           TCP      54     25385 → 44818 [ACK] Seq=1 Ack=1 Win=65535 Len=0
+
+Frame 188: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: HMSIndustria_7b:54:0a (00:30:11:7b:54:0a)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.4
+Transmission Control Protocol, Src Port: 25385, Dst Port: 44818, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 72.010514600   ASUSTekCOMPU_c7:20:90 Broadcast             ARP      42     Who has 192.168.1.5? Tell 192.168.1.99
+
+Frame 189: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 72.011059100   HMSIndustria_7b:53:b6 ASUSTekCOMPU_c7:20:90 ARP      60     192.168.1.5 is at 00:30:11:7b:53:b6
+
+Frame 190: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 72.011078100   192.168.1.99          192.168.1.5           TCP      66     25386 → 44818 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 191: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 25386, Dst Port: 44818, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 72.012099400   192.168.1.5           192.168.1.99          TCP      62     44818 → 25386 [SYN, ACK] Seq=0 Ack=1 Win=4096 Len=0 MSS=1460 SACK_PERM
+
+Frame 192: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Internet Protocol Version 4, Src: 192.168.1.5, Dst: 192.168.1.99
+Transmission Control Protocol, Src Port: 44818, Dst Port: 25386, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 72.012168800   192.168.1.99          192.168.1.5           TCP      54     25386 → 44818 [ACK] Seq=1 Ack=1 Win=65535 Len=0
+
+Frame 193: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: HMSIndustria_7b:53:b6 (00:30:11:7b:53:b6)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 192.168.1.5
+Transmission Control Protocol, Src Port: 25386, Dst Port: 44818, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 74.703816500   192.168.1.99          224.0.0.251           MDNS     112    Standard query 0x0000 PTR _sleep-proxy._udp.local, "QM" question OPT
+
+Frame 194: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 76.344804300   ASUSTekCOMPU_c7:20:90 WeintekLabs_67:ad:83  ARP      42     Who has 192.168.1.90? Tell 192.168.1.99
+
+Frame 195: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 76.345477100   WeintekLabs_67:ad:83  ASUSTekCOMPU_c7:20:90 ARP      60     192.168.1.90 is at 00:0c:26:67:ad:83
+
+Frame 196: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: WeintekLabs_67:ad:83 (00:0c:26:67:ad:83), Dst: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 77.811104500   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 197: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    198 87.374424800   fe80::b435:c72b:4f06:e8c ff02::1:2             DHCPv6   120    Information-request XID: 0xf61af1 CID: 000100012e8dcde808bfb8c72090 
+
+Frame 198: Packet, 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv6mcast_01:00:02 (33:33:00:01:00:02)
+Internet Protocol Version 6, Src: fe80::b435:c72b:4f06:e8c, Dst: ff02::1:2
+User Datagram Protocol, Src Port: 546, Dst Port: 547
+DHCPv6
+
+No.     Time           Source                Destination           Protocol Length Info
+    199 93.816613400   192.168.1.99          224.0.0.251           MDNS     322    Standard query response 0x0000 PTR, cache flush TUF-TERMINAL.local PTR, cache flush TUF-TERMINAL.local A, cache flush 192.168.1.99 AAAA, cache flush fe80::b435:c72b:4f06:e8c NSEC, cache flush 99.1.168.192.in-addr.arpa NSEC, cache flush C.8.E.0.6.0.F.4.B.2.7.C.5.3.4.B.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa NSEC, cache flush TUF-TERMINAL.local OPT
+
+Frame 199: Packet, 322 bytes on wire (2576 bits), 322 bytes captured (2576 bits) on interface \Device\NPF_{F1FE4270-B104-4C83-B2F3-362E7BFB456E}, id 0
+Ethernet II, Src: ASUSTekCOMPU_c7:20:90 (08:bf:b8:c7:20:90), Dst: IPv4mcast_fb (01:00:5e:00:00:fb)
+Internet Protocol Version 4, Src: 192.168.1.99, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353, Dst Port: 5353
+Multicast Domain Name System (response)
